@@ -2,7 +2,11 @@ Shader "MyShady/LightingMulti"
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {} //;
+        _Albedo ("Albedo", 2D) = "white" {} //;
+        [NoScaleOffset] _Normals ("Normals", 2D) = "Bump" {} //;
+        _NormalIntensity("Normal Intensity", Range(0,1))=1//;
+        _Roughness("Roughness",2D)="Roughness"{}//;
+
         _Gloss ("Gloss", Range(0, 1)) = 1 //;
         _Colour ("Colour", Color) = (1, 1, 1) //;
         _glowMag ("Glow Range", Range(0, 1)) = 0.5 //;
