@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Lighting
-  m_Shader: {fileID: 4800000, guid: 9c94d6bc273e31346b4972e264e82acd, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0da4a7ed569b7f945aab14c47410fc4e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -73,10 +73,10 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _glowFreq: 0.5
-    - _glowInt: 0.485
-    - _glowMag: 1
-    - _glowSpeed: 14.1
+    - _glowFreq: 0.182
+    - _glowInt: 0.145
+    - _glowMag: 0.167
+    - _glowSpeed: 5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Colour: {r: 0.4468, g: 0.4377358, b: 1, a: 1}
